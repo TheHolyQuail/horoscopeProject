@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>horoscope</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="logic.js"></script>
+    </head>
+
+    <body>
+
+        <h1>Horoscope</h1>
+
+        <!-- fist asks for your name then for yor birthday -->
+        <p id="question">select the year, month, and day of your birth</p>
+
+        <div id="name">
+
+            <button id="nameButton">continue</button>
+        </div>
+
+        <div id="birthday">
+
+            <!--year-->
+
+
+            <!--month-->
+            <select>
+                <option value="jan">January</option>
+                <option value="feb">Febuary</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="jun">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+            </select>
+
+            <!--day-->
+
+
+            <button id="birthdayButton">get my results</button>
+        </div>
+
+        <div id="results">
+            <!-- becomes your zodiac sign -->
+            <p id="birthSign"></p>
+            <!--find out how to choose image--><img id="zodiacImage" src="">
+
+            <!-- becomes your chinese calendar sign -->
+            <p id="chineseYear"></p>
+            <!--find out how to choose image--><img id="chinaZodImage" src="">
+
+            <!-- becomes your horoscope -->
+            <p id="horoscope"></p>
+        </div>
+
+    </body>
+
+</html>
