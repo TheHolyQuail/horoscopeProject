@@ -1,11 +1,134 @@
-p{
+body {
+    font-family: sans-serif;
+    vertical-align: top;
+    background-color: #000039;
+    text-align: center;
+}
 
+p{
+    font-size: 30px;
+    color: #ffe93a;
 }
 
 h1{
+    font-size: 30px;
+    color: #ffe93a;
+    padding: 5px;
+    border: 5px solid #28ffd0;
 
+}
+
+h5{
+    font-size: 1px;
+    color: #450db5;
+}
+
+h5{
+    font-size: 26px;
+    color: #ffe93a;
+    padding: 5px;
+    border: 0px solid #4900a8;
 }
 
 button{
 
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #ffe93a;
+    background-color: #5cadaf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #668799;
+}
+
+
+
+.button:hover {
+    background-color: #048e68
+}
+
+.button:active {
+    background-color: #4c8b8e;
+    box-shadow: 0 5px #205e66;
+    transform: translateY(4px);
+}
+
+#resettingButton{
+    padding: 10px 20px;
+    font-size: 15px;
+    position: relative;
+    text-align: left;
+    cursor: progress;
+    outline: none;
+    color: #ffe93a;
+    background-color: #5cadaf;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px #668799;
+}
+
+
+#resettingButton:hover {
+    background-color: #048e68
+}
+
+#resettingButton:active {
+    background-color: #4c8b8e;
+    box-shadow: 0 3px #205e66;
+    transform: translateY(2px);
+}
+
+#error{
+    display: none;
+}
+
+#questioners{
+    display: block;
+}
+
+#starter{
+    display: block;
+}
+
+#name{
+    display: none;
+}
+
+#birthdayYear{
+    display: none;
+}
+
+#birthdayMonth{
+    display: none;
+}
+
+#birthdayDay{
+    display: none;
+}
+
+#results{
+    display: none;
+}
+
+#birthSign{
+    font-size: 32px;
+}
+
+#horoscope{
+    font-size: 15px;
+    width: 50%;
+    margin: auto;
+}
+
+
+#ageBasedMessage{
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
 }
