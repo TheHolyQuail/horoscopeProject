@@ -54,11 +54,21 @@ var ageMessages = ["You have a long life ahead of you, do not mess it up. Enjoy 
 
 ];
 
+//variables
+
+//zodiac sign
 var zodiac = "";
 var zodiacNum = 0;
+
 //var chiZodiac = "";
+
+//horoscope
 var horoscope = "";
+
+//zodiac sign picture
 var ZImage = "";
+
+//for the age based life message
 var ageMessage = "";
 
 function begin(){
