@@ -56,7 +56,7 @@ var ageMessages = ["You have a long life ahead of you, do not mess it up. Enjoy 
 
 //variables
 
-//zodiac sign
+//zodiac sign related
 var zodiac = "";
 var zodiacNum = 0;
 
